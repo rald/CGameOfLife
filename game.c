@@ -5,7 +5,7 @@
 #include <GL/glfw.h>
 #include <GL/gl2d.h>
 
-#define GAME_TITLE "Game" 
+#define GAME_TITLE "Game of Life" 
 
 #define SCREEN_WIDTH 640
 #define SCREEN_HEIGHT 480
