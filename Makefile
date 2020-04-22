@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=
+CFLAGS=-Wall
 LDFLAGS=-lm -lpthread -lX11 -lXrandr -lGL -lGLU -lgl2d -lglfw
 OBJS=game.o
 EXE=game

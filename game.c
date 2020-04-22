@@ -26,7 +26,6 @@ int main(int argc, char *argv[]) {
 	bool isAlive;
 	bool isPlaying=false;
 	bool isMouseButtonLeftHold=false;
-	bool isMouseButtonRightHold=false;
 	bool initial;
 	
 	int mouseX,mouseY;
