@@ -1,14 +1,6 @@
-CC=gcc
-CFLAGS=-Wall
-LDFLAGS=-lm -lpthread -lX11 -lXrandr -lGL -lGLU -lgl2d -lglfw
-OBJS=game.o
-EXE=game
-
-
-$(EXE): $(OBJS)
-	gcc $(OBJS) -o $(EXE) $(LDFLAGS)
-
-game.o: game.c
+game.exe: game.c
+	gcc game.c -o game.exe -I. -L. -I ../glfw/include -L ../glfw/lib -I ../gl2d/include -L ../gl2d/lib -lgl2d -lglfw -lopengl32 -lglu32
  
 clean:
-	rm $(OBJS) $(EXE)
+	del game.exe
+
